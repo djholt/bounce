@@ -3,13 +3,13 @@
 //  Bounce
 //
 //  Created by D. J. Holt on 10/9/12.
-//  Copyright __MyCompanyName__ 2012. All rights reserved.
+//
 //
 
 #import "cocos2d.h"
 
 #import "AppDelegate.h"
-#import "IntroLayer.h"
+#import "CirclesLayer.h"
 
 @implementation AppController
 
@@ -73,7 +73,7 @@
 	[CCTexture2D PVRImagesHavePremultipliedAlpha:YES];
 
 	// and add the scene to the stack. The director will run it when it automatically when the view is displayed.
-	[director_ pushScene: [IntroLayer scene]]; 
+	[director_ pushScene:[CirclesLayer scene]];
 
 	
 	// Create a Navigation Controller with the Director

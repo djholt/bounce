@@ -131,8 +131,8 @@
 		AF65EF9D1624FA63000CE672 /* vec4.c in Sources */ = {isa = PBXBuildFile; fileRef = AF65EF9C1624FA63000CE672 /* vec4.c */; };
 		AF65EFA21624FA63000CE672 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF65EFA11624FA63000CE672 /* main.m */; };
 		AF65EFA51624FA63000CE672 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF65EFA41624FA63000CE672 /* AppDelegate.m */; };
-		AF65EFA81624FA63000CE672 /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = AF65EFA71624FA63000CE672 /* HelloWorldLayer.m */; };
-		AF65EFAB1624FA63000CE672 /* IntroLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = AF65EFAA1624FA63000CE672 /* IntroLayer.m */; };
+		AF65EFAB1624FA63000CE672 /* CirclesLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = AF65EFAA1624FA63000CE672 /* CirclesLayer.m */; };
+		AF65EFB31624FBA0000CE672 /* Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = AF65EFB21624FBA0000CE672 /* Circle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -394,10 +394,10 @@
 		AF65EFA11624FA63000CE672 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AF65EFA31624FA63000CE672 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AF65EFA41624FA63000CE672 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AF65EFA61624FA63000CE672 /* HelloWorldLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldLayer.h; sourceTree = "<group>"; };
-		AF65EFA71624FA63000CE672 /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
-		AF65EFA91624FA63000CE672 /* IntroLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroLayer.h; sourceTree = "<group>"; };
-		AF65EFAA1624FA63000CE672 /* IntroLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroLayer.m; sourceTree = "<group>"; };
+		AF65EFA91624FA63000CE672 /* CirclesLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CirclesLayer.h; sourceTree = "<group>"; };
+		AF65EFAA1624FA63000CE672 /* CirclesLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CirclesLayer.m; sourceTree = "<group>"; };
+		AF65EFB11624FBA0000CE672 /* Circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
+		AF65EFB21624FBA0000CE672 /* Circle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Circle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -458,10 +458,10 @@
 			children = (
 				AF65EFA31624FA63000CE672 /* AppDelegate.h */,
 				AF65EFA41624FA63000CE672 /* AppDelegate.m */,
-				AF65EFA61624FA63000CE672 /* HelloWorldLayer.h */,
-				AF65EFA71624FA63000CE672 /* HelloWorldLayer.m */,
-				AF65EFA91624FA63000CE672 /* IntroLayer.h */,
-				AF65EFAA1624FA63000CE672 /* IntroLayer.m */,
+				AF65EFB11624FBA0000CE672 /* Circle.h */,
+				AF65EFB21624FBA0000CE672 /* Circle.m */,
+				AF65EFA91624FA63000CE672 /* CirclesLayer.h */,
+				AF65EFAA1624FA63000CE672 /* CirclesLayer.m */,
 				AF65EE2C1624FA61000CE672 /* Resources */,
 				AF65EE461624FA61000CE672 /* libs */,
 				AF65EF9F1624FA63000CE672 /* Supporting Files */,
@@ -1007,8 +1007,8 @@
 				AF65EF9D1624FA63000CE672 /* vec4.c in Sources */,
 				AF65EFA21624FA63000CE672 /* main.m in Sources */,
 				AF65EFA51624FA63000CE672 /* AppDelegate.m in Sources */,
-				AF65EFA81624FA63000CE672 /* HelloWorldLayer.m in Sources */,
-				AF65EFAB1624FA63000CE672 /* IntroLayer.m in Sources */,
+				AF65EFAB1624FA63000CE672 /* CirclesLayer.m in Sources */,
+				AF65EFB31624FBA0000CE672 /* Circle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1112,6 +1112,7 @@
 				AF65EFB01624FA63000CE672 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
