@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF4DDE8E175FD1B6004D8EC7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF4DDE8B175FD1B6004D8EC7 /* Default-568h@2x.png */; };
+		AF4DDE8F175FD1B6004D8EC7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AF4DDE8C175FD1B6004D8EC7 /* Default.png */; };
+		AF4DDE90175FD1B6004D8EC7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF4DDE8D175FD1B6004D8EC7 /* Default@2x.png */; };
 		AF65EE1A1624FA61000CE672 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF65EE191624FA61000CE672 /* QuartzCore.framework */; };
 		AF65EE1C1624FA61000CE672 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF65EE1B1624FA61000CE672 /* OpenGLES.framework */; };
 		AF65EE1E1624FA61000CE672 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF65EE1D1624FA61000CE672 /* OpenAL.framework */; };
@@ -16,8 +19,6 @@
 		AF65EE261624FA61000CE672 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF65EE251624FA61000CE672 /* Foundation.framework */; };
 		AF65EE281624FA61000CE672 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF65EE271624FA61000CE672 /* CoreGraphics.framework */; };
 		AF65EE2A1624FA61000CE672 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF65EE291624FA61000CE672 /* GameKit.framework */; };
-		AF65EE2E1624FA61000CE672 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AF65EE2D1624FA61000CE672 /* Default.png */; };
-		AF65EE301624FA61000CE672 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = AF65EE2F1624FA61000CE672 /* Default-Landscape~ipad.png */; };
 		AF65EE321624FA61000CE672 /* fps_images.png in Resources */ = {isa = PBXBuildFile; fileRef = AF65EE311624FA61000CE672 /* fps_images.png */; };
 		AF65EE341624FA61000CE672 /* fps_images-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = AF65EE331624FA61000CE672 /* fps_images-hd.png */; };
 		AF65EE361624FA61000CE672 /* fps_images-ipadhd.png in Resources */ = {isa = PBXBuildFile; fileRef = AF65EE351624FA61000CE672 /* fps_images-ipadhd.png */; };
@@ -136,6 +137,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AF4DDE8B175FD1B6004D8EC7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Resources/Default-568h@2x.png"; sourceTree = "<group>"; };
+		AF4DDE8C175FD1B6004D8EC7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Resources/Default.png; sourceTree = "<group>"; };
+		AF4DDE8D175FD1B6004D8EC7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Resources/Default@2x.png"; sourceTree = "<group>"; };
 		AF65EE151624FA61000CE672 /* Bounce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bounce.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF65EE191624FA61000CE672 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		AF65EE1B1624FA61000CE672 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -146,8 +150,6 @@
 		AF65EE251624FA61000CE672 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AF65EE271624FA61000CE672 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		AF65EE291624FA61000CE672 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
-		AF65EE2D1624FA61000CE672 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Resources/Default.png; sourceTree = "<group>"; };
-		AF65EE2F1624FA61000CE672 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape~ipad.png"; path = "Resources/Default-Landscape~ipad.png"; sourceTree = "<group>"; };
 		AF65EE311624FA61000CE672 /* fps_images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fps_images.png; path = Resources/fps_images.png; sourceTree = "<group>"; };
 		AF65EE331624FA61000CE672 /* fps_images-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fps_images-hd.png"; path = "Resources/fps_images-hd.png"; sourceTree = "<group>"; };
 		AF65EE351624FA61000CE672 /* fps_images-ipadhd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fps_images-ipadhd.png"; path = "Resources/fps_images-ipadhd.png"; sourceTree = "<group>"; };
@@ -472,8 +474,9 @@
 		AF65EE2C1624FA61000CE672 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				AF65EE2D1624FA61000CE672 /* Default.png */,
-				AF65EE2F1624FA61000CE672 /* Default-Landscape~ipad.png */,
+				AF4DDE8B175FD1B6004D8EC7 /* Default-568h@2x.png */,
+				AF4DDE8C175FD1B6004D8EC7 /* Default.png */,
+				AF4DDE8D175FD1B6004D8EC7 /* Default@2x.png */,
 				AF65EE311624FA61000CE672 /* fps_images.png */,
 				AF65EE331624FA61000CE672 /* fps_images-hd.png */,
 				AF65EE351624FA61000CE672 /* fps_images-ipadhd.png */,
@@ -882,8 +885,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF65EE2E1624FA61000CE672 /* Default.png in Resources */,
-				AF65EE301624FA61000CE672 /* Default-Landscape~ipad.png in Resources */,
 				AF65EE321624FA61000CE672 /* fps_images.png in Resources */,
 				AF65EE341624FA61000CE672 /* fps_images-hd.png in Resources */,
 				AF65EE361624FA61000CE672 /* fps_images-ipadhd.png in Resources */,
@@ -895,6 +896,9 @@
 				AF65EE421624FA61000CE672 /* Icon@2x.png in Resources */,
 				AF65EE451624FA61000CE672 /* iTunesArtwork in Resources */,
 				AF65EF831624FA62000CE672 /* ChangeLog in Resources */,
+				AF4DDE8E175FD1B6004D8EC7 /* Default-568h@2x.png in Resources */,
+				AF4DDE8F175FD1B6004D8EC7 /* Default.png in Resources */,
+				AF4DDE90175FD1B6004D8EC7 /* Default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1070,6 +1074,7 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1088,6 +1093,7 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};

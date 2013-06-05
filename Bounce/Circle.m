@@ -42,7 +42,7 @@ typedef struct _LineVertex {
         self.direction = CGPointZero;
         self.position = CGPointZero;
         self.gravity = CGPointZero;
-        self.radius = arc4random_uniform(75) + 25;
+        self.radius = arc4random_uniform(25) + 25;
         self.color = [UIColor colorWithRed:arc4random_uniform(255) / 255.0
                                      green:arc4random_uniform(255) / 255.0
                                       blue:arc4random_uniform(255) / 255.0
